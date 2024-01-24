@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(to right, #8e44ad, #c0392b);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: #fff; /* Añadido para cambiar el color del texto a blanco */
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #22222B;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.form-group label {
+  color: #ECE7EB; /* Añadido para cambiar el color del texto de las etiquetas a blanco */
+}
+
+.form-control {
+  background-color: #434351; /* Fondo semitransparente blanco */
+  border: 1px solid #ECE7EB;
+  color: #ECE7EB;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}

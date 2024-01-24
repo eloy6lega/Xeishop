@@ -1,0 +1,18 @@
+/* Estilo personalizado para centrar el mensaje en la pantalla */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f8d7da; /* Fondo rojo claro */
+}
+
+.message-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #dc3545; /* Rojo claro */
+  color: #fff; /* Texto blanco */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+}

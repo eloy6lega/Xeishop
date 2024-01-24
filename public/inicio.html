@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xeishop - Inicio</title>
+    <!-- Agrega la referencia a Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+
+  <body>
+    <script src="js/code.js"></script>
+    <header>
+      <h1 class="titulo">Xeishop</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/login">Log In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Mapa</a>
+            <!-- Se puede poner también #mapa, pero es que están los dos al lado -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tienda">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/perfil">Mi perfil</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-link nav-link" onclick="viewCart()">
+              <img src="img/cart.png" alt="Carrito" width="20" height="20" />
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <hr style="color: black; width: 95%; border: 1px solid black" />
+
+    <div class="container">
+      <div
+        class="row justify-content-center"
+        style="margin: 0 auto; text-align: center"
+      >
+        <div class="col-md-5 mb-4">
+          <div class="bg-image-container chica-bg">
+            <div
+              class="mask text-light d-flex justify-content-center flex-column text-center"
+              style="
+                padding: 50px;
+                margin-left: 15px;
+                margin-right: 15px;
+                width: 100%;
+              "
+            >
+              <h4 style="color: #000">Moda de Mujer</h4>
+              <p class="m-0" style="color: #000">Consulta la moda para mujer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 mb-4">
+          <div class="bg-image-container chico-bg">
+            <div
+              class="mask text-light d-flex justify-content-center flex-column text-center"
+              style="
+                padding: 50px;
+                margin-left: 15px;
+                margin-right: 15px;
+                width: 110%;
+              "
+            >
+              <div style="text-align: center; margin: 0 auto; color: #000">
+                <h4>Moda de Hombre</h4>
+                <p class="m-0">Consulta la moda para hombre</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div id="about" class="aboutus2">
+              <h2
+                style="font-size: 40px; text-decoration: underline; color: #000"
+              >
+                About Us
+              </h2>
+              <div class="contenido">
+                <p style="color: #000">
+                  En Xeishop, nos entusiasma tenerte aquí y te ofrecemos más que
+                  una simple tienda en línea; somos un equipo apasionado
+                  comprometido a proporcionar una experiencia de compra única y
+                  auténtica. Desde nuestros inicios, hemos trabajado
+                  incansablemente para seleccionar cuidadosamente una amplia
+                  gama de productos que reflejen diversidad y calidad en cada
+                  rincón de nuestra tienda en línea. En Xeishop, no buscamos ser
+                  los más grandes, sino los mejores en lo que hacemos. Valoramos
+                  cada compra, nos esforzamos por superar expectativas con
+                  productos de alta calidad y precios justos, y comprometemos un
+                  servicio al cliente excepcional para cada cliente especial.
+                  Nuestro equipo está formado por personas reales con historias
+                  y pasiones genuinas, compartiendo un amor por productos
+                  únicos. Creemos en la transparencia, honestidad y
+                  autenticidad. Agradecemos ser parte de tu historia, ansiamos
+                  crecer y aprender contigo, ofreciéndote lo mejor en cada
+                  compra. En Xeishop, no solo somos una tienda en línea; somos
+                  tu destino para descubrir, explorar y encontrar tesoros que
+                  enriquecerán tu vida. ¡Gracias por elegir Xeishop!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="mapa" id="mapa">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1279.0497180517375!2d-3.7232302300402136!3d40.31771507887132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4220b88756131b%3A0x64b64850dc67ba46!2sCampusFP%20Getafe%20-%20Formaci%C3%B3n%20Profesional%20Reglada!5e0!3m2!1ses!2sjp!4v1700487144467!5m2!1ses!2sjp"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+
+          <h2 id="tienda" style="text-align: center; margin: 0 auto">
+            Nuestros productos
+          </h2>
+          <br />
+          <div style="margin: 0 auto; width: 1000px; height: 200px">
+            <br />
+            <h5 style="text-align: center">
+              Aquí podrás consultar los mejores productos disponibles a la
+              venta.
+            </h5>
+            <p style="text-align: center">
+              ¡No lo dudes y disfruta de nuestra gran variedad!
+            </p>
+            <!-- Agrega esto donde quieras que aparezca el formulario de búsqueda -->
+            <div style="margin: 0 auto; text-align: center">
+              <form id="searchForm">
+                <input
+                  type="text"
+                  id="searchInput"
+                  placeholder="Buscar artículos..."
+                />
+                <button type="submit" onclick="searchItems()">Buscar</button>
+              </form>
+            </div>
+          </div>
+          <div class="renderProductos"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/consumo.js"></script>
+
+    <!-- Agrega esto para la sección de comentarios -->
+    <section id="commentsSection">
+      <h2>Comentarios</h2>
+      <ul id="commentsList"></ul>
+      <textarea id="commentInput" placeholder="Deja tu comentario"></textarea>
+      <button type="button" onclick="submitComment()">Enviar Comentario</button>
+    </section>
+
+    <!-- Modal de Bootstrap para mostrar el carrito -->
+    <div
+      class="modal fade"
+      id="cartModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="cartModalLabel"
+      aria-hidden="true"
+      style="color: black"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartModalLabel">Carrito de Compras</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="cartModalContent">
+            <!-- El contenido del carrito se mostrará aquí -->
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-success"
+              id="payButton"
+              data-dismiss="modal"
+            >
+              Pagar
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bottom-footer bg-dark text-white">
+      <div class="container">
+        <p>&copy; 2023 Derechos reservados por Eloy Pérez y CampusFp</p>
+      </div>
+    </footer>
+
+    <!-- Agrega la referencia a Bootstrap JS y Popper.js al final del cuerpo del documento -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
